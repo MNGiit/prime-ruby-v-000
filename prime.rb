@@ -9,7 +9,7 @@ def prime?(argu)
     end
     count+=1
   end
-  if argu < 0
+  if argu <= 1
     return_this = false
   end
   if argu == 0
