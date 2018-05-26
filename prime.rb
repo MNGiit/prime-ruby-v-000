@@ -12,9 +12,12 @@ def prime?(argu)
   if argu <= 1
     return_this = false
   end
+=begin
   if argu == 0
     return_this = false
   end
+=end
+
   return_this
   
 =begin
