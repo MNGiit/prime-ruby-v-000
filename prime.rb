@@ -13,7 +13,7 @@ def prime?(argu)
     return_this = false
   end
   if argu == 0
-    return_this = true
+    return_this = false
   end
   return_this
   
