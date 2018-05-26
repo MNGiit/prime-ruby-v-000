@@ -9,6 +9,7 @@ def prime?(argu)
     false
   elsif argu < 0 || argu == 1
     false
+  elsif ()
   else
     true
   end
