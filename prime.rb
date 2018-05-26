@@ -9,6 +9,9 @@ def prime?(argu)
     end
     count+=1
   end
+  if argu < 0
+    return_this = false
+  end
   return_this
   
 =begin
